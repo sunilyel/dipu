@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mgerdekq" class="decor" method="POST">
+      <div class="form-left-decoration"></div>
+      <div class="form-right-decoration"></div>
+      <div class="circle"></div>
+      <div class="form-inner">
+        <h1>Contact us</h1>
+        <input type="text" placeholder="Name" />
+        <input type="number" placeholder="Mobile" />
+        <input type="text" placeholder="Domain Name" />
+        <div class="selected">
+          <label for="website">Website Type:</label>
+          <select id="website" name="website">
+            <option value="Portfolio">Portfolio</option>
+            <option value="5 Page Website">5 Page Website</option>
+            <option value="Product Landing Page">Product Landing Page</option>
+            <option value="E-Commerce">E-Commerce</option>
+            <option value="Business-Branding">Business-Branding</option>
+          </select>
+        </div>
+        <div class="selected">
+          <label for="database">Database:</label>
+          <select id="database" name="database">
+            <option value="PHP MySQL">PHP MySQL</option>
+            <option value="Laravel-Django">Laravel-Django</option>
+            <option value="WordPress">WordPress</option>
+            <option value="Others">Others</option>
+            <option value="Business-Branding">Business-Branding</option>
+          </select>
+        </div>
+        <div class="selected">
+          <label for="duration">Duration:</label>
+          <select id="duration" name="duration">
+            <option value="3 Days">3 Days</option>
+            <option value="7 Days">7 Days</option>
+            <option value="10 Days">10 Days</option>
+            <option value="15 Days">15 Days</option>
+            <option value="30 Days">30 Days</option>
+            <option value="40 Days">40 Days</option>
+            <option value="60 Days">60 Days</option>
+          </select>
+        </div>
+        <input type="email" placeholder="Email" />
+        <input type="text" placeholder="Location" />
+        <!-- <textarea placeholder="Message..." rows="5"></textarea> -->
+        <button type="submit" href="/">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
